@@ -1,0 +1,162 @@
+/*
+    GERAL
+*/
+
+body {
+color: #F3F2F0;
+font-size: 16px;
+margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.botoes-principais {
+    text-decoration: none;
+    color: #F3F2F0;
+    background: #C083B9;
+    padding: 9px 25px;
+    border-radius: 4px;
+    margin: 15px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/*
+    NAV
+*/
+
+nav {
+    background-color: #63458a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 6px;
+}
+
+#nav-logo {
+    width: 127px;
+    padding-left: 10px;
+}
+
+#nav-menu {
+    width: 29px;
+}
+
+nav ul li {
+    display: none;
+}
+
+/*
+    HEADER
+*/
+
+header {
+    background: url(../img/bg-banner-claro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    padding-top: 100px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-left: 85px;
+    padding-right: 85px;
+    margin: 0 auto;
+}
+
+
+header div p {
+    width: 205px;
+    padding: 6px;
+    margin: 0 auto;
+}
+
+/*
+    MAIN SECTION SOBRE
+*/
+
+main .sobre {
+    background-color: #7e5a9b;
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+.sobre img {
+    width: 132px;
+}
+
+
+/*
+    MAIN SECTION CONHECA-MAIS
+*/
+
+main .conheca-mais {
+    color: #63458a;
+    background-color: #f3f2f0;
+    padding: 25px;
+}
+
+main .conheca-mais h2 {
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+/*
+    MAIN SECTION DEVS
+*/
+
+main .devs {
+    background-color: #63458a;
+    text-align: center;
+}
+
+/*
+    FOOTER
+*/
+
+footer .rodape {
+    background-color: #323534;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+}
+
+.copyright {
+    background-color: #292A2A;
+    margin: 0 auto;
+    font-size: 11px;
+    padding: 13px;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #F3F2F0;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/*
+    RESPONSIVO
+    
+*/
+
