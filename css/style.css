@@ -11,6 +11,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 h2 {
     font-family: 'Roboto';
+    margin: 0 auto;
 }
 
 .botoes-principais {
@@ -47,7 +48,8 @@ nav {
 }
 
 #nav-menu {
-    width: 29px;
+    width: 25px;
+    padding-right: 28px;
 }
 
 nav ul li {
@@ -107,12 +109,27 @@ main .conheca-mais {
     color: #63458a;
     background-color: #f3f2f0;
     padding: 25px;
+    text-align: center;
 }
 
 main .conheca-mais h2 {
     font-weight: bold;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 19px;
+    padding-bottom: 26px;
+}
+
+.conheca-mais img {
+    width: 82%;
+}
+
+.mulheres-inspiradoras {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionmais-esconder {
+    display: none;
 }
 
 /*
@@ -124,28 +141,56 @@ main .devs {
     text-align: center;
 }
 
+.devs h2 {
+    font-weight: bold;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.devs img {
+    width: 20%;
+}
+
 /*
     FOOTER
 */
 
 footer .rodape {
     background-color: #323534;
-    display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 11px;
+    font-size: 13px;
+}
+
+
+
+#footer-logo {
+    width: 169px;
+    padding-top: 23px;
+}
+
+#footer-icone {
+    width: 18px;
 }
 
 .copyright {
     background-color: #292A2A;
     margin: 0 auto;
-    font-size: 11px;
+    font-size: 10px;
     padding: 13px;
     text-align: center;
 }
 
+.itens ul {
+    padding: 0;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
 footer ul li {
     list-style: none;
+    padding: 5px;
 }
 
 .rodape a {
@@ -153,6 +198,20 @@ footer ul li {
     color: #F3F2F0;
     font-size: 14px;
     opacity: 0.9;
+}
+
+.rodape div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 14px;
+    margin-top: 26px;
+}
+
+.rodape div:nth-child(2) p {
+    margin: 0 auto;
+    width: 57%;
 }
 
 /*
