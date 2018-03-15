@@ -302,9 +302,9 @@ footer ul li {
 
     /* main section conheca-mais */
 
-    .section-esconder {
-        display: block !important; 
-        flex-wrap: wrap !important;
+    .sectionmais-esconder {
+        display: block; 
+        flex-wrap: wrap;
     }
     
 
