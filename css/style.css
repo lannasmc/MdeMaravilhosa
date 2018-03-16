@@ -212,10 +212,12 @@ footer ul li {
     margin-top: 26px;
 }
 
-.rodape div:nth-child(2) p {
+.rodape div:nth-child(2) p { 
     margin: 0 auto;
     width: 57%;
 }
+/* achei bem interessante a função desta estilização.
+rodape div:nth-child (1) p */
 
 /*
     RESPONSIVO
