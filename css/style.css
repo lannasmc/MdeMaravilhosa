@@ -1,314 +1,291 @@
 /*
-    GERAL
+  GERAL
 */
 
 body {
-color: #F3F2F0;
-font-size: 16px;
-margin: 0 auto;
-font-family: Arial, Helvetica, sans-serif;
+  color: #F3F2F0;
+  font-size: 16px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h2 {
-    font-family: 'Roboto';
-    margin: 0 auto;
+  font-family: 'Roboto';
+  margin: 0 auto;
 }
 
 .botoes-principais {
-    text-decoration: none;
-    color: #F3F2F0;
-    background: #b288c0;
-    padding: 9px 25px;
-    border-radius: 4px;
-    margin: 15px;
-    display: inline-block;
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
+  text-decoration: none;
+  color: #F3F2F0;
+  background: #b288c0;
+  padding: 9px 25px;
+  border-radius: 4px;
+  margin: 15px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 
 /*
-    NAV
+  NAV
 */
 
 nav {
-    background-color: #63458a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    padding: 6px;
+  background-color: #63458a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 6px;
 }
 
 #nav-logo {
-    width: 127px;
-    padding-left: 10px;
+  width: 127px;
+  padding-left: 10px;
 }
 
 #nav-menu {
-    width: 25px;
-    padding-right: 28px;
+  width: 25px;
+  padding-right: 28px;
 }
 
 nav ul li {
-    display: none;
+  display: none;
 }
 
 /*
-    HEADER
+  HEADER
 */
 
 header {
-    background: url(../img/bg-banner-claro.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
+  background: url(../img/bg-banner-claro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Montserrat';
-    padding-top: 100px;
-    font-size: 20px;
-    text-transform: uppercase;
-    padding-left: 85px;
-    padding-right: 85px;
-    margin: 0 auto;
+  font-family: 'Montserrat';
+  padding-top: 100px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin: 0 auto;
 }
 
-
 header div p {
-    width: 205px;
-    padding: 6px;
-    margin: 0 auto;
+  width: 205px;
+  padding: 6px;
+  margin: 0 auto;
 }
 
 /*
-    MAIN SECTION SOBRE
+  MAIN SECTION SOBRE
 */
 
 main .sobre {
-    background-color: #7e5a9b;
-    text-align: center;
-    display: block;
-    padding: 20px;
+  background-color: #7e5a9b;
+  text-align: center;
+  display: block;
+  padding: 20px;
 }
 
 .sobre img {
-    width: 132px;
+  width: 132px;
 }
 
-
 /*
-    MAIN SECTION CONHECA-MAIS
+  MAIN SECTION CONHECA-MAIS
 */
 
 main .conheca-mais {
-    color: #63458a;
-    background-color: #f3f2f0;
-    padding: 25px;
-    text-align: center;
+  color: #63458a;
+  background-color: #f3f2f0;
+  padding: 25px;
+  text-align: center;
 }
 
 main .conheca-mais h2 {
-    font-weight: bold;
-    margin: 0 auto;
-    font-size: 19px;
-    padding-bottom: 26px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 19px;
+  padding-bottom: 26px;
 }
 
 .conheca-mais img {
-    width: 82%;
+  width: 82%;
 }
 
 .mulheres-inspiradoras {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .sectionmais-esconder {
-    display: none;
+  display: none;
 }
 
 /*
-    MAIN SECTION DEVS
+  MAIN SECTION DEVS
 */
 
 main .devs {
-    background-color: #63458a;
-    text-align: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  background-color: #63458a;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .devs h2 {
-    font-weight: bold;
-    margin: 0 auto;
-    font-size: 18px;
-    padding: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 18px;
+  padding: 30px;
 }
 
 .devs img {
-    padding: 9px;
-    width: 80px;}
+  padding: 9px;
+  width: 80px;
+}
 
 /*
-    FOOTER
+  FOOTER
 */
 
 footer .rodape {
-    background-color: #323534;
-    justify-content: center;
-    text-align: center;
-    font-size: 13px;
+  background-color: #323534;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
 }
 
-
-
 #footer-logo {
-    width: 169px;
-    padding-top: 23px;
+  width: 169px;
+  padding-top: 23px;
 }
 
 #footer-icone {
-    width: 18px;
+  width: 18px;
 }
 
 .copyright {
-    background-color: #292A2A;
-    margin: 0 auto;
-    font-size: 10px;
-    padding: 13px;
-    text-align: center;
+  background-color: #292A2A;
+  margin: 0 auto;
+  font-size: 10px;
+  padding: 13px;
+  text-align: center;
 }
 
 .itens ul {
-    padding: 0;
-    margin: 0 auto;
-    padding-top: 15px;
+  padding: 0;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
 footer ul li {
-    list-style: none;
-    padding: 5px;
+  list-style: none;
+  padding: 5px;
 }
 
 .rodape a {
-    text-decoration: none;
-    color: #F3F2F0;
-    font-size: 14px;
-    opacity: 0.9;
+  text-decoration: none;
+  color: #F3F2F0;
+  font-size: 14px;
+  opacity: 0.9;
 }
 
 .rodape div:nth-child(3) {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 14px;
-    margin-top: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 14px;
+  margin-top: 26px;
 }
 
-.rodape div:nth-child(2) p { 
-    margin: 0 auto;
-    width: 57%;
+.rodape div:nth-child(2) p {
+  margin: 0 auto;
+  width: 57%;
 }
+
 /* achei bem interessante a função desta estilização.
 rodape div:nth-child (1) p */
 
 /*
-    RESPONSIVO
-    
+  RESPONSIVO
 */
 
 @media (min-width: 1024px) {
-    
-    /* nav  */
-
-    #nav-logo {
-        width: 190px;
-        padding-left: 22px;
-    }
-
-    #nav-menu {
-        display: none;
-    }
-   
-    nav ul li {
-        list-style: none;
-        display: inline;
-        text-transform: uppercase;
-        padding: 0px 40px;
-    
-    }
-    
-    nav ul li a {
-        text-decoration: none;
-        color: #F3F2F0;
-        font-size: 12px;
-        opacity: 0.9;
-    }
-
-    /* header */
-
-    header {
-        background-size: cover;
-        min-height: 87vh;
-        background-position: center top;
-    }
-
-    header > div {
-        display: block;
-        text-align: left;
-        width: 533px;
-        padding-left: 197px;
-    }
-    
-    h1 {
-        font-family: 'Montserrat';
-        padding-top: 322px;
-        font-size: 32px;
-        text-transform: uppercase;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    
-    header > div p {
-        width: 515px;
-        padding: 0;
-        margin: 20px 0px;
-        font-size: 20px;
-    }
-
-    #botao-header {
-        font-size: 19px;
-        font-weight: normal;
-        margin: 0;
-        padding: 11px 35px;    
-    }
-
-    /* main section sobre */
-
-    .sobre img {
-        width: 218px;
-    }
-
-    .sobre p {
+  /* nav  */
+  #nav-logo {
+    width: 190px;
+    padding-left: 22px;
+  }
+  #nav-menu {
+    display: none;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0px 40px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #F3F2F0;
+    font-size: 12px;
+    opacity: 0.9;
+  }
+  /* header */
+  header {
+    background-size: cover;
+    min-height: 87vh;
+    background-position: center top;
+  }
+  header>div {
+    display: block;
+    text-align: left;
+    width: 533px;
+    padding-left: 197px;
+  }
+  h1 {
+    font-family: 'Montserrat';
+    padding-top: 322px;
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  header>div p {
+    width: 515px;
+    padding: 0;
+    margin: 20px 0px;
+    font-size: 20px;
+  }
+  #botao-header {
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0;
+    padding: 11px 35px;
+  }
+  /* main section sobre */
+  .sobre img {
+    width: 218px;
+  }
+  .sobre p {
     font-size: 22px;
     padding-left: 200px;
     padding-right: 200px;
-    }
-
-    /* main section conheca-mais */
-
-    .sectionmais-esconder {
-        display: block; 
-        flex-wrap: wrap;
-    }
-    
-
+  }
+  /* main section conheca-mais */
+  .sectionmais-esconder {
+    display: block;
+    flex-wrap: wrap;
+  }
 }
-
